@@ -25,20 +25,7 @@ class People():
         elif other.age > self.age:
             return False
 
-    def __eq__(self, other):
-        if self.age == other.age:
-            return True
-        else:
-            return False
 
-    def __int__(self):
-        return self.power
-
-    def __str__(self):
-        return self.name
-
-    def __len__(self):
-        return len(self.name)
 
 
 
